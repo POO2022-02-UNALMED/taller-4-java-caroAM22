@@ -23,7 +23,7 @@ public class Taller4 {
         System.out.println(new Asignatura().nombre);
         System.out.println(grupo2.codigo);
         System.out.println(asignatura2.codigoExterno);
-        asignatura1.cambiarDatos(50);
+        asignatura1.cambiarDatosCodigoExterno(50);
         System.out.println(asignatura1.codigoExterno);
         System.out.println(estudiantes1[1].cedula);
         System.out.println(new Persona("Alejandro").cedula);
